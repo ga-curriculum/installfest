@@ -127,6 +127,8 @@ $ source ~/.bash_profile
 # Nothing! if you do not get any errors that means the .zshrc is in good shape.
 ```
 
+... or open up a new Terminal tab with `Command` + `T`. This will automatically reload `~/.bash_profile`.
+
 ## Install Xcode
 
 _Run:_
@@ -245,46 +247,24 @@ $ brew link --overwrite git
 After that, try the Confirm step. If that doesn't work, completely close
 Terminal (`CMD + Q`) and open a new window.
 
-## Install Code Editors
+## Install Code Editor - VS Code
 
-We will be using Sublime Text during Installfest, and recommend using it for the
-first few weeks before trying out the more complex but powerful editor: VS Code.
+We will use [VS Code](https://code.visualstudio.com/) during this course.
 
 _Run:_
 
 ```sh
-$ brew cask install sublime-text visual-studio-code
+$ brew cask install visual-studio-code
 ```
 
 ### Confirm Code Editors
 
 ```sh
-# 1/2
-
-$ subl ~/.bash_profile
-
-# Keep this window open
-
-# 2/2
-
 $ code ~/.bash_profile
 ```
 
-You can either use VS Code or Sublime Text to edit your `.bash_profile`. Keep
+You can use VS Code to edit your `.bash_profile`. Keep
 either window open.
-
-#### Troubleshooting Sublime Text
-
-If Sublime Text is installed but `subl ~/.bash_profile` does not work...
-
-1. _Run:_
-
-```sh
-$ ln -sv "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-```
-
-2. Run the "Confirm" command again. Worst case, completely close Terminal
-   (`CMD + Q`) and open a new window.
 
 #### Troubleshooting VS Code
 
@@ -307,6 +287,8 @@ If VS Code is installed but `code ~/.bash_profile` does not work...
    ```sh
    $ source ~/.bash_profile
    ```
+   
+   or open up a new Terminal tab with `Command` + `T`. This will automatically reload `~/.bash_profile`.
 
 4. Run the "Confirm" command again. Worst case, completely close Terminal
    (`CMD + Q`) and open a new window.
