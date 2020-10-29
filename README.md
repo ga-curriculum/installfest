@@ -893,7 +893,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 # 4/5
 
-$ curl -sSL https://raw.git.generalassemb.ly/DC-WDI/installfest/master/gitignore-global--template -o ~/.gitignore-global
+$ curl -sSL https://raw.git.generalassemb.ly/prudential-0921/installfest/master/gitignore-global--template?token=AAABLB75NXCOQD3XNBIUYJS7UQECQ -o ~/.gitignore-global
 
 # 5/5
 
