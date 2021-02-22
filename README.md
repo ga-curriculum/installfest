@@ -97,7 +97,7 @@ xcode-select version 2373.
 
    Homebrew 3.0.2
    Homebrew/homebrew-core (git revision 4de031; last commit 2021-02-22)
-	Homebrew/homebrew-cask (git revision 7cf55; last commit 2021-02-22)
+   Homebrew/homebrew-cask (git revision 7cf55; last commit 2021-02-22)
 
    # Example Output – Homebrew not installed
 
