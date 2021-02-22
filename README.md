@@ -428,10 +428,18 @@ alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Crese
 
 <br>
 
+## Install Jetbrains IntelliJ
+
+[Go to this link and download the **Ultimate** version for your system](https://www.jetbrains.com/idea/download/#section=mac) (e.g. - Mac, Windows, etc). 
+
+Ultimate is a paid version, however, we will supply a code for you to use for the course.
+
+<br>
+
 
 ## Register for GitHub
 
-If you don't have a GitHub account, go to https://github.com and create an
+If you don't have a GitHub account, go to [https://github.com](https://github.com) and create an
 account.
 
 Make sure you update your profile with:
@@ -446,7 +454,7 @@ Make sure you update your profile with:
 
 ## Register for GitHub Enterprise
 
-Go to https://git.generalassemb.ly/ and create an account.
+Go to the [General Assembly GitHub Enterprise Organization](https://git-invite.generalassemb.ly/invite) and create an account.
 
 You should use the same name, username, profile image, and email you have used
 before in creating your normal GitHub account.
