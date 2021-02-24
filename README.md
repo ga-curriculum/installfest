@@ -14,6 +14,12 @@ students to have them.
 
 <br>
 
+## Download Git and Git Bash (PC)
+
+[https://gitforwindows.org/](https://gitforwindows.org/)
+
+<br>
+
 ## Open Terminal
 
 1. Open Spotlight by clicking the little magnifying glass in the top-right
