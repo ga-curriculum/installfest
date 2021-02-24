@@ -440,6 +440,14 @@ alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Crese
 
 Ultimate is a paid version, however, we will supply a code for you to use for the course.
 
+#### Install `idea` Terminal shortcut
+
+Open IntelliJ IDEA, go to Tools->Create Command-Line Launcher... and optionally adjust the location and name of the script that will start IntelliJ IDEA. Voilà! Now from your command line, you can type:
+
+`idea .` to open the project in the current directory
+
+_https://emmanuelbernard.com/blog/2017/02/27/start-intellij-idea-command-line/_
+
 <br>
 
 
