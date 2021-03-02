@@ -101,6 +101,8 @@ name of your existing private key file.
    If you are using Linux, type: `cat ~/.ssh/id_rsa.pub` and manually copy the
    output. **_It iss important to copy the key exactly without adding newlines
    or whitespace._**
+   
+   If you are using a PC, type: `cat .ssh/id_rsa.pub > /dev/clipboard`
 
 2. Go to Github (`github.com`). On the top right corner of any page – click your
    profile photo, then click Settings.
