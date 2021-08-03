@@ -26,3 +26,7 @@ Run `java -version` on the Windows cmd prompt. If the JDK version is 1.8 or high
 
 [Download and install AdoptOpenJDK (Version 8, JVM OpenJ9)](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=openj9)
 
+## PostgreSQL
+
+[Download and install PostgreSQL (version > 9.5)](https://www.postgresql.org/download/windows/)
+
