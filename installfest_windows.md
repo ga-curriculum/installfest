@@ -6,6 +6,10 @@
 - Post the GitHub username you just created into our Slack channel 
 - [Download and install Git Bash](https://gitforwindows.org/)
 
+### SSH Key Setup
+- [Generate SSH Key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [Add SSH Key to GitHub](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+
 ### Git Proxy Configuration
 
 Run these commands in Git Bash (it doesn’t matter where, you’re updating a global Git setting):
