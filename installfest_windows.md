@@ -1,4 +1,4 @@
-# Java Installfest
+# Java Installfest (Windows)
 
 ## Git & GitHub
 
