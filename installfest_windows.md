@@ -26,6 +26,8 @@ git config --global http.sslVerify false
 
 ## Java SE Development Kit 
 
+Run `java -version` on the Windows cmd prompt. If the JDK version is X.X or higher, you can skip this step.
+
 [Download and install Java JDK (Version 11)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 
 ## PostgreSQL
