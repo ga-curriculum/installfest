@@ -26,7 +26,7 @@ git config --global http.sslVerify false
 
 ## PostgreSQL
 
-[Download and install PostgreSQL (version > 9.5)](https://www.postgresql.org/download/windows/)
+[Download and install PostgreSQL (version > 9.6)](https://www.postgresql.org/download/windows/)
 
 ## IntelliJ IDEA
 
