@@ -24,7 +24,7 @@ git config --global http.sslVerify false
 
 > You can verify the settings you entered with `git config --list`
 
-## Java SE Development Kit 11
+## Java SE Development Kit 
 
 [Download and install Java JDK (Version 11)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 
