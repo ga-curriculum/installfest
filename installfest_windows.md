@@ -20,13 +20,14 @@ git config --global http.sslVerify false
 
 > You can verify the settings you entered with `git config --list`
 
-## AdoptOpenJDK 
+## Java SE Development Kit 11
 
-Run `java -version` on the Windows cmd prompt. If the JDK version is 1.8 or higher, don't install OpenJDK. 
-
-[Download and install AdoptOpenJDK (Version 8, JVM OpenJ9)](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=openj9)
+[Download and install Java JDK (Version 11)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 
 ## PostgreSQL
 
 [Download and install PostgreSQL (version > 9.5)](https://www.postgresql.org/download/windows/)
 
+## IntelliJ IDEA
+
+[Download and install IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/download/#section=windows)
