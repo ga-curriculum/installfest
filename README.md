@@ -5,9 +5,8 @@
 ## What is Installfest?
 
 Here at General Assembly, we use Installfest to install a group of applications
-which we consider essential for any software developer to have. We use these
-applications regularly in our classes, and it's essential for all of our
-students to have them.
+that we consider essential for any software developer. We use these
+applications regularly in our classes, and all our students need them.
 
 
 # Instructions 🚀
@@ -23,10 +22,9 @@ students to have them.
 ## Open Terminal
 
 1. Open Spotlight by clicking the little magnifying glass in the top-right
-   corner of your screen, or hitting `CMD + Space`.
+ corner of your screen, or hitting `CMD + Space`.
 
-2. Type "Terminal" into the Spotlight text input and select the Terminal app. A
-   new Terminal window should pop up.
+2. Select the Terminal app and Type "Terminal" into the Spotlight text input. A new Terminal window should pop up.
    
 <br>
 
@@ -61,10 +59,10 @@ $ source ~/.bash_profile
 
 # Example Output
 
-# Nothing! if you do not get any errors that means the .zshrc is in good shape.
+# Nothing! If you do not get any errors, the .zshrc is in good shape.
 ```
 
-... or open up a new Terminal tab with `Command` + `T`. This will automatically reload `~/.bash_profile`.
+... or open a new Terminal tab with `Command` + `T`. This will automatically reload `~/.bash_profile`.
 
 
 <br>
@@ -96,7 +94,7 @@ xcode-select version 2373.
 
    _Run:_
 
-   ```sh
+ ```sh
    $ brew --version
 
    # Example Output – Homebrew installed
@@ -108,59 +106,59 @@ xcode-select version 2373.
    # Example Output – Homebrew not installed
 
    -bash: brew: command not found
-   ```
+ ```
 
 2. If Homebrew is installed, update it.
 
    _Run:_
 
-   ```sh
+ ```sh
    $ brew update; brew upgrade; brew cleanup; brew doctor
-   ```
+ ```
 
-   If not, [install Homebrew](https://brew.sh/).
+ If not, [install Homebrew](https://brew.sh/).
 
    _Run:_
 
-   ```sh
+ ```sh
    $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-   ```
+ ```
 
 3. Confirm Homebrew
 
-	```sh
-	$ brew --version
-	
-	# Example Output
-	
-	Homebrew 3.0.2
+ ```sh
+   $ brew --version
+   
+   # Example Output
+   
+   Homebrew 3.0.2
    Homebrew/homebrew-core (git revision 4de031; last commit 2021-02-22)
-	Homebrew/homebrew-cask (git revision 7cf55; last commit 2021-02-22)
-	```
+   Homebrew/homebrew-cask (git revision 7cf55; last commit 2021-02-22)
+ ```
 
 <br>
 
 ## (Re)install Git
 
-1. See initial version of git installed on the system.
+1. See the initial version of git installed on the system.
 
    _Run:_
 
-   ```sh
+ ```sh
    $ git --version
 
    # Example Output
 
    git version 2.20.1 (Apple Git-122)
-   ```
+ ```
 
-2. Install latest version of git.
+2. Install the latest version of git.
 
    _Run:_
 
-   ```sh
+ ```sh
    $ brew install git
-   ```
+ ```
 
 3. Completely close Terminal (`CMD + Q`) and open a new window with Spotlight.
 
@@ -216,7 +214,7 @@ $ source ~/.bash_profile
 
 **Note:** Installfest provides an
 [example `.bash_profile`](./bash_profile_example.sh) with all of additions we'll
-be making. It might be helpful to open it in a new browser tab to refer to
+be making. Open it in a new browser tab to refer to
 alongside the instructions.
 
 
@@ -236,14 +234,13 @@ _Updated `.bash_profile`:_
 ```diff
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
-# The "+" is just to show the added line, it is not a part of the final code.
+# The "+" shows the added line only; it is not part of the final code.
 
 + export PATH="$PATH"
 ```
 
 **Note:** If you already have code in `.bash_profile`, that's awesome! Just make
-sure there is a line that says `export PATH="<blah blah blah>"` because we will
-need to add to it later.
+sure, there is a line that says `export PATH="<blah blah blah>"` because we will need to add to it later.
 
 ### Confirm \$PATH
 
@@ -253,7 +250,7 @@ $ source ~/.bash_profile
 
 ### Add Git Auto-Completion to bash
 
-In your `.bash_profile`, add this line and save the file (`CMD + S`).
+Add this line to your `.bash_profile` and save the file (`CMD + S`).
 
 ```sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
@@ -289,15 +286,15 @@ $ node --version
 -bash: node: command not found
 ```
 
-If you get `command not found`, you can move on to the step.
+You can move on to the next step if you get `command not found`.
 
-If got any other answer,
+If you have any other answer,
 [follow these steps to uninstall Node](./uninstall_node.md)!
 
 ### Install NVM
 
 **Note:** Save (`CMD + S`) your `.bash_profile` before starting this step – it
-will automatically update the `.bash_profile` so we need to save the file first
+will automatically update the `.bash_profile`, so we need to save the file first
 to avoid file conflicts.
 
 _Run:_
@@ -320,7 +317,7 @@ export PATH="$PATH"
 
 source /usr/local/etc/bash_completion.d/git-completion.bash
 
-# There might not be an empty line between the previous code and these new lines, feel free to add it in!
+# There might not be an empty line between the previous code and these new lines; feel free to add it!
 + export NVM_DIR="$HOME/.nvm"
 + [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 + [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -375,7 +372,7 @@ _Run:_
 ```sh
 # 1/5
 
-# Replace <YOUR FULL NAME> with the name you would like to use, keep the double quotes
+# Replace <YOUR FULL NAME> with the name you would like to use; keep the double quotes
 
 $ git config --global user.name "<YOUR_FULL_NAME>"
 
@@ -436,13 +433,13 @@ alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Crese
 
 ## Install Jetbrains IntelliJ
 
-[Go to this link and download the **Ultimate** version for your system](https://www.jetbrains.com/idea/download/#section=mac) (e.g. - Mac, Windows, etc). 
+[Go to this link and download the **Ultimate** version for your system](https://www.jetbrains.com/idea/download/#section=mac) (e.g. - Mac, Windows, etc.). 
 
-Ultimate is a paid version, however, we will supply a code for you to use for the course.
+Ultimate is a paid version; however, we will supply you with a code for the course.
 
 #### Install `idea` Terminal shortcut
 
-Open IntelliJ IDEA, go to Tools->Create Command-Line Launcher... and optionally adjust the location and name of the script that will start IntelliJ IDEA. Voilà! Now from your command line, you can type:
+Open IntelliJ IDEA, go to Tools->Create Command-Line Launcher... and optionally adjust the location and name of the script that will start IntelliJ IDEA. Voilà! Now, from your command line, you can type:
 
 `idea .` to open the project in the current directory
 
@@ -460,7 +457,7 @@ Make sure you update your profile with:
 
 - Your Name
 - A recognizable profile picture
-- An e-mail address
+- An email address
 
 
 <br>
@@ -468,10 +465,10 @@ Make sure you update your profile with:
 
 ## Register for GitHub Enterprise
 
-Go to the [General Assembly GitHub Enterprise Organization](https://git-invite.generalassemb.ly/invite) and create an account.
+Create an account at the [General Assembly GitHub Enterprise Organization](https://git-invite.generalassemb.ly/invite).
 
 You should use the same name, username, profile image, and email you have used
-before in creating your normal GitHub account.
+before creating your personal GitHub account.
 
 
 <br>
@@ -491,7 +488,7 @@ machine!
 
 1. _Run:_
 
-   ```sh
+ ```sh
    # 1/2
 
    $ brew cask install postgres
@@ -499,14 +496,14 @@ machine!
    # 2/2
 
    $ sudo mkdir -p /etc/paths.d && echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
-   ```
+ ```
 
-2. Completely close Terminal and reopen a new window.
+2. Completely close the Terminal and reopen a new window.
 
 3. Use Spotlight (`CMD + Space`) and type "Postgres" to open the application.
 
-   If this is the first time running Postgres.app, click the "Initialize"
-   button. This will create the database and start your local server.
+ If this is the first time running Postgres.app, click the "Initialize"
+ button. This will create the database and start your local server.
 
 ### Confirm Postgres
 
@@ -520,7 +517,7 @@ Type "help" for help.
 
 ```
 
-This opens a new type of prompt in Terminal, type `\q` and then hit Enter to
+This opens a new type of prompt in Terminal. Type `\q` and then hit Enter to
 exit.
 
 
@@ -574,7 +571,7 @@ $ brew cask install google-chrome slack
 ```sh
 $ brew leaves
 
-# this will list all of the applications installed via Homebrew
+# This will list all of the applications installed via Homebrew
 ```
 
 You can use Spotlight to open the apps installed with `brew cask` by entering
@@ -616,8 +613,8 @@ assignments!
 -->
 # Congratulations 🎉
 
-You have installed the basic applications to use as a developer, and you are
-ready for SEI. We are looking forward to working with you in the next weeks!
+You have installed the essential applications to use as a developer and are
+ready for SEI. We look forward to working with you in the next few weeks!
 
 <br>
 
@@ -691,7 +688,7 @@ Python 3.8.0
 
 #### Troubleshooting
 
-Refer the the [pyenv wiki](https://github.com/pyenv/pyenv/wiki)
+Refer to the [pyenv wiki](https://github.com/pyenv/pyenv/wiki)
 
 ## Update pip
 
@@ -736,46 +733,46 @@ the Terminal can find the application.
 
 How do we determine what to change the line to?
 
-1. We need to find the location we need to add to our `$PATH`.
+1. We must find the location to add to our `$PATH`.
 
    _Run:_
 
-   ```sh
+ ```sh
    $ python -m site --user-base
-   ```
+ ```
 
-   This will give us a location such as...
+ This will give us a location such as...
 
-   ```sh
+ ```sh
    /Users/<your_user_REPLACE_THIS>/.local
 
    # Yours will be different!
-   ```
+ ```
 
 2. We want to add "/bin" to this location when we add it to the `$PATH`. So in
-   in this example, we'd get...
+ in this example, we'd get...
 
-   ```diff
+ ```diff
    - /Users/<your_user_REPLACE_THIS>/.local
    + /Users/<your_user_REPLACE_THIS>/.local/bin
-   ```
+ ```
 
-   Just make a note of this line, we will add it to the `.bash_profile` in the
-   next step.
+ Just make a note of this line; we will add it to the `.bash_profile` in the
+ next step.
 
 3. Update your `.bash_profile` by adding this path to the `export PATH` line.
 
-   Keep the final `:$PATH` at the very end, and insert the location of the
-   pipenv installation immediately before it.
+ Keep the final `:$PATH` at the very end, and insert the location of the
+ pipenv installation immediately before it.
 
-   **Note:** be mindful of the `:`s between different file locations in the
+   **Note:** Be mindful of the `:`s between different file locations in the
    `$PATH`
 
-   The updated line could look something like...
+ The updated line could look something like...
 
    _Update `.bash_profile`:_
 
-   ```diff
+ ```diff
    # In .bash_profile
    export BASH_SILENCE_DEPRECATION_WARNING=1
    - export PATH="$PATH"
@@ -788,7 +785,7 @@ How do we determine what to change the line to?
    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
    eval "$(starship init bash)"
-   ```
+ ```
 
 ### Confirm pipenv Troubleshooting
 
@@ -835,27 +832,27 @@ either window open.
 If VS Code is installed but `code ~/.bash_profile` does not work...
 
 1. Anywhere on your computer, press `CMD + Space` to open the Spotlight and type
-   "Visual Studio Code" to open the application.
+ "Visual Studio Code" to open the application.
 
-2. In VS Code, press `SHIFT + CMD + P` to open the Command Palette, and enter...
+2. Press `SHIFT + CMD + P` in VS Code to open the Command Palette, and enter...
 
    `Shell Command: Install 'code' command in PATH`
 
-   VS Code should autocomplete the rest of the command when you enter the first
-   few characters. `
+ VS Code should autocomplete the rest of the command when you enter the first
+ few characters. `
 
-3. Back in the terminal...
+3. Back in the Terminal...
 
    _Run:_
 
-   ```sh
+ ```sh
    $ source ~/.bash_profile
-   ```
+ ```
    
-   or open up a new Terminal tab with `Command` + `T`. This will automatically reload `~/.bash_profile`.
+ or open up a new Terminal tab with `Command` + `T`. This will automatically reload `~/.bash_profile`.
 
 4. Run the "Confirm" command again. Worst case, completely close Terminal
-   (`CMD + Q`) and open a new window.
+ (`CMD + Q`) and open a new window.
 
 
 </details>
@@ -867,70 +864,68 @@ If VS Code is installed but `code ~/.bash_profile` does not work...
 ## Things to Keep in Mind
 
 - The instructions below are made for macOS users. For Linux users, please
-  follow the instructions [here](./installfest_linux.md) instead.
+ follow the instructions [here](./installfest_linux.md) instead.
 
 - Enter the commands in the Terminal unless otherwise noted.
 
 - In the code blocks, do **not** copy the `$` symbols at the start of the line
-  unless otherwise noted.
+ unless otherwise noted.
 
-  The `$` is commonly used to represent the start of the prompt in the Terminal,
-  and everything that follows the `$` is the command itself.
+ The `$` is commonly used to represent the start of the prompt in the Terminal,
+ and everything that follows the `$` is the command itself.
 
-- We don't recommend typing the commands manually wherever possible, since a
-  single typo can make a command malfunction.
+We don't recommend typing the commands manually wherever possible since a single typo can cause a command to malfunction.
 
   - Use `CMD + C` to copy a command.
 
   - Use `CMD + V` to paste a command.
 
-  Copy and paste **one command at a time**. Each command should be a single
-  line, but if your window is narrow some lines may "wrap" and appear as
-  multiple lines.
+ Copy and paste **one command at a time**. Each command should be a single
+ line, but if your window is narrow, some lines may "wrap" and appear as
+ multiple lines.
 
-  For longer lines, make sure you copy the entire line.
+ For longer lines, make sure you copy the entire line.
 
 - If you're asked to enter your password, that means the password for your
-  computer.
+ computer.
 
-  When you type it in, Terminal won't give you any visual feedback to indicate
-  you're typing things in: you won't get a black dot for each character you
-  typed.
+ When you type it in, Terminal won't give you any visual feedback to indicate
+ you're typing things in: you won't get a black dot for each character you
+ typed.
 
-  That's OK – just type your password and hit Enter!
+ That's OK – type your password and hit Enter!
 
 - Terminal is not big on visual feedback – it usually doesn't tell you when
-  something worked.
+ something worked.
 
-  No news is good news! If you enter a command and Terminal doesn't print
-  anything, it probably worked fine.
+ No news is good news! If you enter a command and the Terminal doesn't print
+ anything, it probably worked fine.
 
-  If something didn't work, you'll get an error message that gives useful
-  information.
+ If something doesn't work, you'll get an error message that gives a useful
+ information.
 
-- Some of the commands do not give immediate feedback so if it looks like
-  something stalled give it a moment.
+- Some of the commands do not give immediate feedback, so if it looks like
+ something stalled, give it a moment.
 
-  If the Terminal prompt (`$`) isn't present on the current line, be patient.
+ Be patient if the Terminal prompt (`$`) isn't present on the current line.
 
-- Your output could be slightly different from the Example Output. As long as
-  they are similar you are good to move on to the next step.
+Your output may differ slightly from the Example Output. As long as they are similar, you are good to move on to the next step.
 
-- There are a few steps where it is important that a file is saved before
-  proceeding. Here are a few things to look out for:
+- There are a few steps to save a file before
+ proceeding. Here are a few things to look out for:
 
   _Unsaved:_
 
-  ![Unsaved File](./images/file-changes--unsaved.png)
+ ![Unsaved File](./images/file-changes--unsaved.png)
 
   _Saved:_
 
-  ![Saved File](./images/file-changes--saved.png)
+ ![Saved File](./images/file-changes--saved.png)
 
 ### If You Run Into an Issue
 
-1. First, verify that you've typed the given commands **letter for letter**.
-2. Then, check the board if any changes were made during the installfest.
+1. Verify that you've typed the commands **letter for letter**.
+2. Then, check the board to see if any changes were made during the installfest.
 3. Finally, ask an instructor for help.
 
 
@@ -954,22 +949,22 @@ Starting Installfest with the most recent macOS update is vital!
 
 1. Install Starship.
 
-   ```sh
+ ```sh
    $ brew install starship
-   ```
+ ```
 
 2. Add to `.bash_profile`.
 
-   ```sh
+ ```sh
    eval "$(starship init bash)"
-   ```
+ ```
 
    **Note:** We want to add this line and keep it
-   [near the end of `~/.bash_profile`](https://github.com/starship/starship#bash)
+ [near the end of `~/.bash_profile`](https://github.com/starship/starship#bash)
 
    _Updated `.bash_profile`:_
 
-   ```diff
+ ```diff
    export BASH_SILENCE_DEPRECATION_WARNING=1
    export PATH="$PATH"
 
@@ -980,7 +975,7 @@ Starting Installfest with the most recent macOS update is vital!
    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
    + eval "$(starship init bash)"
-   ```
+ ```
 
 ### Confirm Starship prompt
 
@@ -990,7 +985,7 @@ $ source ~/.bash_profile
 
 Terminal should look a little different now!
 
-If not, completely close Terminal (`CMD + Q`) and reopen a new window.
+If not, close Terminal (CMD + Q`) completely and reopen a new window.
 
 
 <br>
@@ -1001,14 +996,14 @@ Spaceship Prompt uses some new characters, so we need to download and configure
 a programming font for our Terminal!
 
 1. Download
-   [Fira Code here](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip).
+ [Fira Code here](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip).
 
-2. Unzip the folder when it is finishe downloading, and open the `tff/` folder.
+2. Unzip the folder when it is finished downloading, and open the `tff/` folder.
 
-3. Highlight all of the `.tff` files, and the double click them to open the
-   prompt to add them to the Font Book app.
+3. Highlight all of the `.tff` files and then double-click them to open the
+ prompt to add them to the Font Book app.
 
-   Once they are installed, you should see them on the list after a few seconds.
+ Once installed, you should see them on the list after a few seconds.
 
 4. In the Terminal App, open the Preferences with `CMD + ,`
 
@@ -1016,11 +1011,11 @@ a programming font for our Terminal!
 
 6. Under "Font", click the "Change" button and select Fira Code from the list.
 
-7. Under "Text", click the box for "Antialias text"
+7. Under "Text", click the box for "Antialias text".
 
 ### Confirm Fira Code
 
-The font in your terminal should be different!
+The font in your Terminal should be different!
 
 
 </details>
