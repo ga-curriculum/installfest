@@ -400,7 +400,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 # 4/5
 
-$ curl -sSL https://raw.git.generalassemb.ly/prudential-0921/installfest/master/gitignore-global--template?token=AAABLB75NXCOQD3XNBIUYJS7UQECQ -o ~/.gitignore-global
+$ curl -sSL https://raw.githubusercontent.com/ga-curriculum/installfest/main/gitignore-global--template -o ~/.gitignore-global
 
 # 5/5
 
