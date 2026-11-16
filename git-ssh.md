@@ -120,14 +120,12 @@ name of your existing private key file.
 
 8. Confirm the action by entering your GitHub password.
 
-**Repeat the 8 commands above on git.generalassemb.ly.**
-
 ## Checking your Connection
 
 _Run:_
 
 ```sh
-# 1/2 Github
+# Github
 
 $ ssh -T git@github.com
 
@@ -139,11 +137,6 @@ Are you sure you want to continue connecting (yes/no)? y
 Please type 'yes' or 'no': yes
 Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
 Hi generalassembly! You've successfully authenticated, but GitHub does not provide shell access.
-
-
-# 2/2 Github Enterprise
-
-$ ssh -T git@git.generalassemb.ly
 ```
 
 You may be asked to authenticate this action using your password, which is the
